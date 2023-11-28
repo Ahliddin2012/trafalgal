@@ -1,0 +1,198 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --dark-body: #f2f2f2
+    --dark-mani: #fff
+}
+
+.container{
+    max-width: 1279px;
+    margin: 0 auto;
+}
+
+nav a{
+color: var(--dark-body);
+font-family: Nunito Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+font-size: normal;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 23px 0;
+background: var(--dark-body);
+box-shadow: 0px 2px 4px 0px  rgba(0, 0, 0, 00);
+}
+
+
+
+nav .btn{
+    color: var(--dark-body);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: normal;
+    padding:5px;
+    border:none;
+    border-radius: 5px;  
+}
+
+i {
+    margin-bottom: 48px;
+    border: none;
+    max-width: 480px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--dark-body);
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0. 05);
+    position: relative;
+}
+
+header input::placeholder{
+    color:#848484;
+font-family: Nunito Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+padding: 5px 10px;
+}
+
+input::before{
+content: "";
+position: absolute;
+left: 10px;
+top: 50%;
+transform: translateY(-50%);
+width: 20px;
+height: 20px;
+background-image: url("");
+background-size: cover;
+}
+
+.box{
+   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.card{
+    max-width: 264px;
+    background-color: var(--dark-body) ;
+}
+
+@media (max-width:1280) {}
+
+@media (max-width:768) {
+
+    nav {
+        padding: 23px 20px;
+        margin-bottom: 20px !important;
+    }
+
+.flags{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+  input {
+    width:100%;
+    height: 0 auto;
+  }
+}
+
+@media (max-width:576) {
+    .box {
+        justify-content: center;
+    }
+}
+
+
+
+.katta-ota{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

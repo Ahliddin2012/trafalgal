@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    backgroundImage: {
+                        'hero-pattern': "url('/img/rasm.svg')",
+                        'footer-texture': "url('/img/footer-texture.png')",
+                    },
+
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="text-[#000] m-[0] p-[0]">
+    <header class="pt-[17px] bg-black">
+        <nav class="container mx-auto text-[#A6A8AD] flex justify-between items-center  ">
+            <img src="img/IMAGE.svg" class="mr-[29px]" alt="">
+            <ul class="flex gap-x-[20px] ">
+                <li><a href="#" class="text-white">Sounds</a></li>
+                <li><a href="#" class="text-white">Skills</a></li>
+                <li><a href="#" class="text-white">Plugins</a></li>
+                <li><a href="#" class="text-white">Studio</a></li>
+                <li><a href="#" class="text-white">Community</a></li>
+                <li><a href="#" class="text-white">Blog</a></li>
+                <li><a href="#" class="text-white">Pricing</a></li>
+                <div class="flex text-neutral-50 gap-x-[19px] ">
+                    <li><a href="#" class="text-black"> Login</a></li>
+                    <li class="text-black">Sign up</li>
+                </div>
+            </ul>
+        </nav>
+
+    </header>
+    <main class="bg-[#121214]">
+        <div class="bg-[url('./img/hhh.png')] bg-no-repeat bg-cover bg-center h-[900px]">
+            <div class="container mx-auto">
+                <div class="text-neutral-50">
+                    <h1 class="text-8xl text-[#ffff] m-[0px] p-[0px]">Step into the <br>
+                        producer’s <br>
+                        playground
+                    </h1><br><br><br><br>
+                    <p class="text-[#ffff]"> Explore the world’s best sample library and <br> an unmatched marketplace
+                        of
+                        plugins and DAWs. </p><br><br><br>
+                    <button class="text-neutral-50 p-[10px]	 shrink-0 rounded bg-[#03F] ">Try free</button>
+                </div>
+            </div>
+        </div>
+        <div class="text-neutral-50 ">
+            <h6 class="text-black mt-29 mt-80px text-white
+            text-[28px]
+            font-normal
+            font-['Roboto']
+            leading-9 text-center"> About Catalog</h6>
+        </div>
+        <div class="flex items-center justify-center container mx-auto gap-[330px] ">
+            <div class="text-neutral-50 text-black">
+                <p class="text-[#ffff]">SOUNDS</p>
+                <h2 class="text-[#ffff]">A catalog so deep, it’s dangerous.</h2>
+                <h3 class="text-[#ffff]">Expertly created and curated samples in any style imaginable.<br> Start
+                    swimming in
+                    sound.</h3>
+                <p class="SOUNDS mt-[20px] text-[#ffff] w-[159px] h-9 bg-blue-700 rounded-lg flex justify-center items-center">Explore Sounds</p>
+            </div>
+            <div class="mb-[100px]">
+                <img src="img/IMAGE (2).svg" alt="">
+            </div>
+        </div>
+        <div class="flex justify-center  text-[#ffff] container mx-auto gap-[330px] ">
+            <div>
+                <img src="img/text.png" alt="">
+            </div>
+            <div class="w-[422] mt-[80px] h-[187]">
+                <p>Connected Experience</p>
+                <h1>A workflow that actually flows.</h1>
+                <p>Preview samples in your track’s key and tempo, drag and drop sounds into your DAW, and organize your
+                    favorite samples, MIDI and presets in one place.</p>
+                <p class=" mt-[20px] w-[140px] flex justify-center items-center h-9 bg-blue-700 rounded-lg">Workflow</p>
+            </div>
+        </div> <br><br><br>
+        <div class="flex justify-between container mx-auto gap-[330px]">
+            <div class="text-[#ffff] mt-[80px] ">
+                <p>Gear</p>
+                <h2>Build a drool-worthy studio, affordably.</h2>
+                <p>The industry’s top software,<br>
+                 all in one place, on payment plans <br>
+                  built to work for you.</p>
+                  <p class="flex justify-center items-center w-[140px] h-[36px] text-neutral-50 mt-[20px] shrink-0 w-[100px] rounded bg-[#03F] ">Explore Gear</p>
+            </div>
+            <div>
+                <img src="img/ti.png" alt="">
+            </div>
+        </div>
+            <h1 class=" text-center container mx-auto text-[#ffff]">What creators are saying about Splice</h1>
+        <div class="container mx-auto flex justify-between container">
+            <div class="w-[361px] h-[453px] bg-[#F8F8F8] pt-[32px] px-[69px] pb-[30px] rounded-[8px]">
+               <img class="mb-[30px]" src="img/doctor.svg" alt="">
+               <p>I can always find what I’m looking for on Splice, whether it’s the exact sound I want or just a bit of inspiration.</p>
+               <p class="mt-[20px]">Andrew Huang</p>
+           </div>
+           <div class="w-[361px] h-[453px] bg-[#F8F8F8] pt-[32px] px-[69px] pb-[30px] rounded-[8px]">
+               <img src="img/homi.svg" alt="">
+               <p>Finally a way to buy plugins that works. By paying a little at a time, producers can get legit access to the top VSTs.</p>
+               <p class="mt-[20px]">KSHMR</p>
+           </div>
+           <div class="w-[361px] h-[453px] bg-[#F8F8F8] pt-[32px] px-[69px] pb-[30px] rounded-[8px]">
+               <img src="img/IMAGE (5).svg" alt="">
+               <p>It’s been fun to dive into Splice’s creator community and explore tools that support my own creative process.</p>
+               <p class="mt-[20px]">Kesha Lee</p>
+           </div>
+        </div>
+        <div class="bg-[#344346] flex text-[#ffff] container mx-auto">
+            <div>
+                <p>© 2022 Splice.com All Rights Reserved</p>
+            </div>
+            <div class="flex gap-[30px] ml-[90px] ">
+                <p>Terms of Use</p>
+                <p>Privacy Policy</p>
+                <p>Jobs</p>
+                <p>Contact</p>
+                <p>Help</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
